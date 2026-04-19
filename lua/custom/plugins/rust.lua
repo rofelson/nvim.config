@@ -12,9 +12,10 @@ return {
       crates.show()
     end,
   },
-  {
-    'mrcjkb/rustaceanvim',
-    version = '^4', -- Recommended
-    ft = { 'rust' },
-  },
+  -- {
+  --   'mrcjkb/rustaceanvim',
+  --   version = '^6', -- Recommended
+  --   lazy = false,
+  --   -- ft = { 'rust' },
+  -- },
 }
